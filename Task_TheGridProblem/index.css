@@ -1,1 +1,33 @@
-/* Write code below for GRID PROBLEM TASK */
+<html>
+    <head>
+        <title>The Grid Problem</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+        .dash-container{
+          display:grid;
+          grid-template-columns:auto auto auto;
+          grid-template-rows:300px 200px 100px 200px;
+           width:800px;
+          }
+         .dash-item{
+          background-color:#E7C4A2;
+          text-align:center;
+          
+          }
+        </style>
+    </head>
+    <body>
+     <div class="dash-container">
+    <div class="dash-item">one</div>
+    <div class="dash-item" style="border-left:3px solid #DE8328;border-right:3px solid #DE8328;">two</div>
+    <div class="dash-item">three</div>
+    <div class="dash-item" style="border-top:3px solid #DE8328;border-bottom:3px solid #DE8328;">four</div>
+    <div class="dash-item" style="border:3px solid #DE8328;">five</div>
+    <div class="dash-item" style="border-top:3px solid #DE8328;border-bottom:3px solid #DE8328;">six</div>
+    <div class="dash-item" style="grid-column:1/span 2;grid-row:3/span 4;border-right:3px solid #DE8328;">seven</div>
+    <div class="dash-item" style="border-bottom:3px solid #DE8328;">eight</div>
+    <div class="dash-item">nine</div>
+    </div>
+    </body>
+</html>
