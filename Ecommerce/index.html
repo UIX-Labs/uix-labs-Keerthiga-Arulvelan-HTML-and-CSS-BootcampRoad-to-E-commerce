@@ -1,32 +1,76 @@
 
-<!DOCTYPE html>
-<html><head><title>Task1</title></head>
-<body>
-<h1>Welcome to My Shop</h1>
-<img src="shp.png">
-<ul>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Products</a></li>
-<li><a href="#">Contact Us</a></li>
-</ul>
-<h2>About Us</h2>
-Welcome to My Shop! We are a one -stop destination for all your shopping needs. Our mission is to provide you with the best products and exceptional customer service.
-<h2>Products</h2>
-Explore our wide range of products, including:
-<ul>
-<li>Electronics</li><li>Clothing</li><li>Home Decor</li><li>Toys</li>
-</ul>
-Find perfect items for yourself, or as gift for your loved ones.
-<h2>Contact Us</h2>
-If you have any questions or need assistance, please don't hesitate to reach out to us using the contact form below:
-<form action="#">
-<label for="name">Name:</label>
-<input type="text" id="name"><br>
-<label for="email">Email:</label>
-<input type="text" id="email"><br>
-<label for="message">Message:<br></label>
-<textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-<button> Submit</button>
-<p>&copy; 2023 My Shop. All Right Reserved.</p>
+<html>
+    <head>
+        <title>Implying Layputs to My Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .top{
+                background-color:#4D133F;
+                width:100%;
+                height:8rem;
+                text-align:center;
+                color:#ffff;
+                font-size:0.8em;
+                margin-top:-1rem;
+            }
+           .box{
+               background-color:#E8E8E9;
+              width:100%;
+              height:100%;
+             }
+            .box-container{
+             display:grid;
+             grid-template-columns:auto auto;
+             }
+             .box-item{
+             background-color:#ffff;
+             margin:0.5rem 1rem 0.5rem 1rem;
+             box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+             font-size:0.85em;
+            }
+           input{
+            width:100%;
+           border-color:#5555;
+           border-radius:5px;
+           }
+          .b{
+         
+          box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+          margin:0rem 1rem 1rem 1rem;
+          }
+        </style>
+    </head>
+    <body>
+     <div class="top"><h1><br>Welcome to My Shop</h1>
+<img src="shopping_cart.png" style="width:50px;height:50px;float:right;margin-right:1rem;margin-top:-2rem;"></img>
+<h2 style="clear:both;">About Us&nbsp;&nbsp;&nbsp;Products&nbsp;&nbsp;&nbsp;Contact Us</h2></div>
+<div class="box">
+<div class="box-container">
+<div class="box-item"><h1 style="margin-left:1rem;color:#4D133F;">Wide Range of Products</h1>
+<h3 style="margin-left:1rem;color:#4D133F;">Explore our wide range of products, including:</h3>
+<ul style="margin-left:1rem;"><li>Electronics</li><li>Clothing</li><li>Home Decor</li><li>Toys</li></ul>
+<h3 style="margin-left:1rem;color:#4D133F;">Find perfect items for yourself, or as gift for your loved ones.</h3>
+<p><br></p>
+</div>
+<div class="box-item"><h1 style="margin-left:1rem;color:#4D133F;">New Section</h1>
+<ul style="margin-left:1rem;"><li>100% one month gurantee of every product.</li><li>Huge sale in the electronics section.</li><li>40 days money back gurantee.</li><li>Summer sale to begin soon.</li></ul>
+<p><br></p>
+</div>
+<div class="box-item" style="grid-column:1/span 2;background-image:url(shpng.png);text-align:center;color:#ffff;"><h1>Contact Us</h1>
+<h4 style="margin-left:1rem;color:#fff;">If you have any questions or need assistance, please don't hesitate to reach out to us using the contact form below:</h4>
+<div class="b"style="color:#000;background-color:#ffff;width:90%;margin:auto;">
+<form style="margin-left:1rem;margin-right:1rem;">
+<label><b>Name:</b><br></label>
+<input type="text" style="height:2rem;"><br>
+<label><b>Email:</b><br></label>
+<input type="text" style="height:2rem;"><br>
+<label><b>Message:</b><br></label>
+<textarea  style="width:100%;height:5rem;"></textarea><br><br>
+<button style="background-color:#4D133F;color:#ffff;border-radius:5px;width:4rem;height:2rem;margin-bottom:1rem;"> Submit</button>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
