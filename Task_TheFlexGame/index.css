@@ -1,1 +1,59 @@
-/* Write code below for FLEX GAME TASK */
+<html>
+    <head>
+        <title>The Flex Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+   
+            .dash-container{
+            display:grid;
+             height:100%;
+             width:100%;
+            grid-template-columns:20% 80%;
+            grid-template-rows:20% auto;
+            }
+           .dash-item{ 
+            color:#FFFF;
+            font-size:0.9em;
+            margin-left:1em;
+            margin-top:1em;
+            }
+            .card-container{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            width:80%;
+            margin-left:1em;
+            }
+            .card-item{
+             width:100px;
+             height:100px;
+             margin-left:10px;
+             margin-top:10px;
+             background-color:#044A31;
+             text-align:center;
+             font-size:1em
+            }
+        </style>
+    </head>
+    <body>
+
+     <div class="dash-container">
+     <div class="dash-item" style="background-color:#6B0E64;grid-column:1/span 2;margin-right:1em;"><h2 style="margin:1em;"><br>Header</h2></div>
+     <div class="dash-item" style="background-color:#D63F20;margin-bottom:1em;"><h2 style="margin:1em;"><br>Menu</h2></div>
+     <div class="dash-item" style="background-color:#0A6E4A;margin-right:1em;margin-bottom:1em;"><h2 style="margin:1em;"><br>Content<br></h2>  
+      <div class="card-container">
+      <div class="card-item"><h1>1</h1></div>
+      <div class="card-item"><h1>2</h1></div>
+      <div class="card-item"><h1>3</h1></div>
+      <div class="card-item"><h1>4</h1></div>
+      <div class="card-item"><h1>5</h1></div>
+      <div class="card-item"><h1>6</h1></div>
+      <div class="card-item"><h1>7</h1></div>
+      <div class="card-item"><h1>8</h1></div>
+      <div class="card-item"><h1>9</h1></div>
+      <div class="card-item"><h1>10</h1></div>
+      </div>
+     </div>
+      </div>
+    </body>
+</html>
